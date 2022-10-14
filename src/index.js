@@ -30,7 +30,6 @@ const stream$ = fromEvent(search, 'input').pipe(
 );
 
 stream$.subscribe((user) => {
-  console.log(user);
   const html = `
     <div class="card">
       <div class="card-image">
